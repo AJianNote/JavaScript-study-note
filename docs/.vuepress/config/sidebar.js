@@ -1,6 +1,20 @@
 const sidebar = [
     {
-        title: '基本类型',
+        title: '语言基础',
+        collapsable: true,
+        children: [
+            '语言基础/语言基础'
+        ]
+    },
+    {
+        title: '变量作用域内存',
+        collapsable: true,
+        children: [
+            '变量作用域内存/变量作用域内存'
+        ]
+    },
+    {
+        title: '基本引用类型',
         collapsable: true,
         children: [
             'variableAndRAMProblem/basicTypeAndReferenceType'
@@ -49,6 +63,14 @@ const sidebar = [
             'dom/事件委派',
             'dom/事件的传播'
         ]
+    },
+    {
+        title: '简单工厂模式',
+        collapsable: true,
+        children: [
+            '设计模式/简单工厂模式'
+        ]
+
     }
 ]
 
