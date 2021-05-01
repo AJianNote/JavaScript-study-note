@@ -2,7 +2,6 @@ const { sidebar } = require('./config/sidebar')
 const { nav } = require('./config/nav')
 
 module.exports = {
-    base: '/jsStudy/',
     title: 'javaScript',
     description: 'javaScript学习笔记',
     head: [
@@ -12,7 +11,7 @@ module.exports = {
         nav: nav,
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接
         //假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        repo: 'hzjanger/jsStudy',
+        repo: 'AJianNote/JavaScript-study-note',
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 假如文档不是放在仓库的根目录下：
