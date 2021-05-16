@@ -57,6 +57,13 @@ const sidebar = [
         ]
     },
     {
+      title: '网络请求和远程资源',
+      collapsable: true,
+      children: [
+          '网络请求和远程资源/ajax'
+      ]
+    },
+    {
         title: 'DOM',
         collapsable: true,
         children: [
